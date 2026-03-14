@@ -1,0 +1,58 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.prettier": "explicit"
+  },
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/.hg/store/**": true,
+    "**/.dart_tool": true,
+    ".gemini/skills/**": true,
+    ".agents/skills/**": true,
+    "CLAUDE.md": true,
+    "GEMINI.md": true
+  },
+  "files.readonlyInclude": {
+    ".gemini/skills/**": true,
+    ".agents/skills/**": true,
+    "CLAUDE.md": true,
+    "GEMINI.md": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "**/.dart_tool": true,
+    "CLAUDE.md": true,
+    "GEMINI.md": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "yaml.schemas": {
+    "https://www.schemastore.org/dependabot-2.0.json": "/.github/dependabot.yml"
+  },
+  "cSpell.words": []
+}

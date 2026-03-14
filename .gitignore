@@ -1,0 +1,10 @@
+# env
+.env*
+
+# misc
+.DS_Store
+*.log
+
+# tools
+settings.local.json
+.playwright-cli
